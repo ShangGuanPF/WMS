@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>loginDialog</class>
+ <widget class="QDialog" name="loginDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>414</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normalon>:/qt 图标/man key.png</normalon>
+    <activeon>:/icons/CQUPT.ico</activeon>
+   </iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMessageBox {   border-color:#32435E; border-width:1px; border-radius: 3px;
+  min-width:30px; min-height:23px;
+  /*font-family:&quot;宋体&quot;;font-size:36px;*/
+  border-image:url(./config/qss/style_1/images/messageBox_background.png);
+  height: 300px;
+  width: 200px;
+  border: none;
+}
+QDialog{
+background-color: qlineargradient(spread:pad, x1:0.500273, y1:0.438, x2:0.500727, y2:0.909, stop:0 rgba(190, 154, 124, 255), stop:0.971591 rgba(96, 71, 62, 255));
+}
+
+</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>20</y>
+     <width>211</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 14pt &quot;微软雅黑&quot;;
+background-color:rgb(190, 154, 124, 255);
+border-radius:5px;padding:2px 4px;
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string>  仓 储 管 理 系 统</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>100</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:5px;padding:2px 4px;
+font: 75 11pt &quot;楷体&quot;;
+color: rgb(255, 255, 255);
+background-color:rgb(158, 158, 118);</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>150</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:5px;padding:2px 4px;
+font: 75 11pt &quot;楷体&quot;;
+background-color:rgb(158, 158, 118);
+color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>200</y>
+     <width>251</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton{  
+color:rgb(255, 255, 255);
+font: 75 12pt &quot;微软雅黑&quot;;
+border-style:solid;  
+background-color:rgb(255, 85, 0);
+border-radius:5px;padding:2px 4px;/*border-radius控制圆角大小*/  
+}  
+QPushButton:hover{  /*鼠标放上后*/  
+color:rgb(255, 255, 255);  
+min-height:20;  
+border-style:solid;  
+border-top-left-radius:2px;  
+border-top-right-radius:2px;  
+background-color:rgb(190, 154, 124, 255);
+border:1px;  
+border-radius:5px;padding:2px 4px;  
+}  
+QPushButton:pressed{ /*按下按钮后*/  
+color:rgb(255, 255, 255);  
+min-height:20;  
+border-style:solid;  
+border-top-left-radius:2px;  
+border-top-right-radius:2px;  
+background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop:0 rgb(226,236,241),   
+                            stop: 0.3 rgb(190,190,190),  
+                              stop: 1 rgb(160,160,160));  
+border:1px;  
+border-radius:5px;padding:2px 4px;  
+}  
+QPushButton:checked{    /*选中后*/  
+color:rgb(255, 255, 255);  
+min-height:20;  
+border-style:solid;  
+border-top-left-radius:2px;  
+border-top-right-radius:2px;  
+background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop:0 rgb(226,236,241),   
+                            stop: 0.3 rgb(190,190,190),  
+                              stop: 1 rgb(160,160,160));  
+border:1px;  
+border-radius:5px;padding:2px 4px;  
+}  </string>
+   </property>
+   <property name="text">
+    <string>登      录</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>250</y>
+     <width>61</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QToolButton{
+color: rgb(255, 255, 255);
+border-radius:5px;padding:2px 4px;
+background-color:rgb(96, 71, 62, 255);
+}
+QToolButton:hover{
+background-color:rgb(190, 154, 124, 255);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>立即注册</string>
+   </property>
+   <property name="autoRaise">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton_3">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>250</y>
+     <width>61</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QToolButton{
+color: rgb(255, 255, 255);
+border-radius:5px;padding:2px 4px;
+background-color:rgb(96, 71, 62, 255);
+}
+QToolButton:hover{
+background-color:rgb(190, 154, 124, 255);
+}</string>
+   </property>
+   <property name="text">
+    <string>忘记密码</string>
+   </property>
+   <property name="autoRaise">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

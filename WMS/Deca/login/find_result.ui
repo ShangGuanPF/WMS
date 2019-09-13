@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>find_result</class>
+ <widget class="QWidget" name="find_result">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>321</width>
+    <height>200</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normalon>:/qt 图标/Find.png</normalon>
+   </iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget::QMessageBox {   border-color:#32435E; border-width:1px; border-radius: 3px;
+  min-width:30px; min-height:23px;
+  /*font-family:&quot;宋体&quot;;font-size:36px;*/
+  border-image:url(./config/qss/style_1/images/messageBox_background.png);
+  height: 300px;
+  width: 200px;
+  border: none;
+}
+QWidget{
+background-color: qlineargradient(spread:pad, x1:0.500273, y1:0.438, x2:0.500727, y2:0.909, stop:0 rgba(190, 154, 124, 255), stop:0.971591 rgba(96, 71, 62, 255));
+}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;楷体&quot;;
+color: rgb(255, 255, 255);
+background-color:rgb(190, 154, 124, 255);
+</string>
+   </property>
+   <property name="text">
+    <string>查询到您的密码：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>80</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:5px;padding:2px 4px;
+font: 75 10pt &quot;楷体&quot;;
+background-color:rgb(158, 158, 118);
+color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>140</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton{  
+color:rgb(255, 255, 255);
+font: 75 10pt &quot;微软雅黑&quot;;
+border-style:solid;  
+background-color:rgb(255, 85, 0);
+border-radius:5px;padding:2px 4px;/*border-radius控制圆角大小*/  
+}  
+QPushButton:hover{  /*鼠标放上后*/  
+color:rgb(255, 255, 255);  
+min-height:20;  
+border-style:solid;  
+border-top-left-radius:2px;  
+border-top-right-radius:2px;  
+background-color:rgb(190, 154, 124, 255);
+border:1px;  
+border-radius:5px;padding:2px 4px;  
+}  
+QPushButton:pressed{ /*按下按钮后*/  
+color:rgb(255, 255, 255);  
+min-height:20;  
+border-style:solid;  
+border-top-left-radius:2px;  
+border-top-right-radius:2px;  
+background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop:0 rgb(226,236,241),   
+                            stop: 0.3 rgb(190,190,190),  
+                              stop: 1 rgb(160,160,160));  
+border:1px;  
+border-radius:5px;padding:2px 4px;  
+}  
+QPushButton:checked{    /*选中后*/  
+color:rgb(255, 255, 255);  
+min-height:20;  
+border-style:solid;  
+border-top-left-radius:2px;  
+border-top-right-radius:2px;  
+background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop:0 rgb(226,236,241),   
+                            stop: 0.3 rgb(190,190,190),  
+                              stop: 1 rgb(160,160,160));  
+border:1px;  
+border-radius:5px;padding:2px 4px;  
+}  </string>
+   </property>
+   <property name="text">
+    <string>修改密码</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>140</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton{  
+color:rgb(255, 255, 255);
+font: 75 10pt &quot;微软雅黑&quot;;
+border-style:solid;  
+background-color:rgb(255, 85, 0);
+border-radius:5px;padding:2px 4px;/*border-radius控制圆角大小*/  
+}  
+QPushButton:hover{  /*鼠标放上后*/  
+color:rgb(255, 255, 255);  
+min-height:20;  
+border-style:solid;  
+border-top-left-radius:2px;  
+border-top-right-radius:2px;  
+background-color:rgb(190, 154, 124, 255);
+border:1px;  
+border-radius:5px;padding:2px 4px;  
+}  
+QPushButton:pressed{ /*按下按钮后*/  
+color:rgb(255, 255, 255);  
+min-height:20;  
+border-style:solid;  
+border-top-left-radius:2px;  
+border-top-right-radius:2px;  
+background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop:0 rgb(226,236,241),   
+                            stop: 0.3 rgb(190,190,190),  
+                              stop: 1 rgb(160,160,160));  
+border:1px;  
+border-radius:5px;padding:2px 4px;  
+}  
+QPushButton:checked{    /*选中后*/  
+color:rgb(255, 255, 255);  
+min-height:20;  
+border-style:solid;  
+border-top-left-radius:2px;  
+border-top-right-radius:2px;  
+background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop:0 rgb(226,236,241),   
+                            stop: 0.3 rgb(190,190,190),  
+                              stop: 1 rgb(160,160,160));  
+border:1px;  
+border-radius:5px;padding:2px 4px;  
+}  </string>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 11pt &quot;楷体&quot;;
+color: rgb(255, 255, 255);
+background-color:rgb(190, 154, 124, 255);</string>
+   </property>
+   <property name="text">
+    <string>  登录用户名：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>30</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:5px;padding:2px 4px;
+font: 75 10pt &quot;楷体&quot;;
+background-color:rgb(158, 158, 118);
+color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

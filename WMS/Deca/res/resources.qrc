@@ -1,0 +1,80 @@
+<RCC>
+    <qresource prefix="/">
+        <file>splash.png</file>
+        <file>logo.jpg</file>
+        <file>qt 图标/Button Cancel.png</file>
+        <file>qt 图标/Customize.png</file>
+        <file>qt 图标/Delete.png</file>
+        <file>qt 图标/Downloads.png</file>
+        <file>qt 图标/Find.png</file>
+        <file>qt 图标/man key.png</file>
+        <file>qt 图标/删除图标.jpg</file>
+        <file>qt 图标/修改.png</file>
+        <file>qt 图标/修改图标.jpg</file>
+        <file>图片1.png</file>
+        <file>图片2.png</file>
+        <file>cqupt.png</file>
+        <file>qt 图标/新增.jpg</file>
+        <file>qt 图标/标签.jpg</file>
+        <file>仓库/仓库管理.png</file>
+        <file>仓库/产品管理.png</file>
+        <file>仓库/人员管理.png</file>
+        <file>toolbox图标/定位.png</file>
+        <file>toolbox图标/folder-house-icon.png</file>
+        <file>toolbox图标/home.ico</file>
+        <file>toolbox图标/logout.ico</file>
+        <file>toolbox图标/maintenance.png</file>
+        <file>toolbox图标/settings.png</file>
+        <file>toolbox图标/地图.png</file>
+        <file>toolbox图标/设置.png</file>
+        <file>toolbox图标/作业.png</file>
+        <file>toolbox图标/homework.ico</file>
+        <file>重邮.jpg</file>
+        <file>重邮.png</file>
+        <file>登陆/登陆.jpg</file>
+        <file>qt 图标/修改图标/document-edit (1).png</file>
+        <file>qt 图标/修改图标/document-edit (2).png</file>
+        <file>qt 图标/修改图标/document-edit.png</file>
+        <file>qt 图标/修改图标/document-write.ico</file>
+        <file>qt 图标/修改图标/file_edit.ico</file>
+        <file>qt 图标/修改图标/write.ico</file>
+        <file>qt 图标/compose.png</file>
+        <file>qt 图标/toggle-expand-alt.png</file>
+        <file>qt 图标/yellow-24.png</file>
+        <file>qt 图标/更新图标/45.ico</file>
+        <file>qt 图标/更新图标/export.ico</file>
+        <file>qt 图标/更新图标/filer.png</file>
+        <file>qt 图标/更新图标/refresh.ico</file>
+        <file>qt 图标/更新图标/search-good.ico</file>
+        <file>qt 图标/add1.ico</file>
+        <file>qt 图标/更新图标/navigate-down.ico</file>
+        <file>qt 图标/更新图标/sign-down-icon.png</file>
+        <file>qt 图标/更新图标/sign-up-icon.png</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>DWctrler.ico</file>
+        <file>CQUPT.ico</file>
+        <file>图片1.jpg</file>
+        <file>图片3.jpg</file>
+        <file>图片4.jpg</file>
+        <file>图片5.jpg</file>
+        <file>timg.jpg</file>
+        <file>timg (1).jpg</file>
+        <file>timg (2).jpg</file>
+        <file>timg (3).jpg</file>
+        <file>reset.jpg</file>
+        <file>delet.png</file>
+        <file>cq.jpg</file>
+        <file>cy.jpg</file>
+        <file>s1.png</file>
+        <file>s2.png</file>
+        <file>s3.png</file>
+        <file>s4.png</file>
+        <file>s5.png</file>
+        <file>s6.png</file>
+        <file>出库.png</file>
+        <file>动态盘点.png</file>
+        <file>人员定位.png</file>
+        <file>入库.png</file>
+    </qresource>
+</RCC>
